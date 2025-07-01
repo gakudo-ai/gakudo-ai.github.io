@@ -1,12 +1,112 @@
-<!DOCTYPE html> 
-<html>
-  <head>
-    <title>Your Name - Homepage</title>
-  </head>
-  
-  <body>
-    <h1>Hi, I'm Your Name!</h1>  
-    
-    <p>Welcome to my website!</p> 
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gakudo AI</title>
+  <style>
+    :root {
+      --accent: #f9c6a6;
+      --text: #000;
+      --bg: #fff;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--accent);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #000;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    h2 {
+      border-left: 5px solid var(--accent);
+      padding-left: 1rem;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: var(--accent);
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #f7b58c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #eee;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gakudo AI</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome to Gakudo AI</h2>
+    <p>
+      We are building intelligent systems that simplify decision-making through thoughtful automation and elegant design.
+    </p>
+
+    <p>
+      Learn more about our vision and explore our latest tools and prototypes.
+    </p>
+
+    <a class="button" href="#">Explore Projects</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Gakudo AI. All rights reserved.
+  </footer>
+
+</body>
 </html>
