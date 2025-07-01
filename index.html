@@ -132,7 +132,36 @@
     }
   </style>
 </head>
-<body>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuLinks = document.querySelectorAll("nav a");
+    const details = document.querySelectorAll("details");
+
+    menuLinks.forEach(link => {
+      link.addEventListener("click", (e) => {
+        const targetId = link.getAttribute("href");
+
+        // Si es el enlace a "#", solo hace scroll al top
+        if (targetId === "#") return;
+
+        e.preventDefault();
+
+        // Cierra todos los <details>
+        details.forEach(d => d.removeAttribute("open"));
+
+        // Abre el correspondiente y hace scroll suave
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.setAttribute("open", "");
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+    });
+  });
+</script>
+
+<body id="top">
 
   <header>
     <img src="Gakudo Logo.png" alt="Gakudo AI Logo" />
