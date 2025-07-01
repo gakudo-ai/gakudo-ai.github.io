@@ -21,18 +21,22 @@
     }
 
     header {
+      background-color: var(--accent);
+      padding: 1.5rem 1rem 2rem;
       text-align: center;
-      padding: 2rem;
-      border-bottom: 1px solid #eee;
+      position: relative;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     }
 
     header img {
-      max-width: 200px;
+      max-width: 160px;
       height: auto;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     nav {
-      margin-top: 1rem;
+      margin-top: 0.5rem;
     }
 
     nav a {
@@ -40,6 +44,27 @@
       text-decoration: none;
       color: #000;
       font-weight: 500;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0%;
+      height: 2px;
+      background-color: #000;
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #333;
+    }
+
+    nav a:hover::after {
+      width: 100%;
     }
 
     main {
@@ -51,6 +76,7 @@
     h2 {
       border-left: 5px solid var(--accent);
       padding-left: 1rem;
+      font-size: 1.8rem;
     }
 
     a.button {
@@ -61,6 +87,12 @@
       text-decoration: none;
       border-radius: 5px;
       margin-top: 1rem;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    a.button:hover {
+      background: #f7b58c;
+      transform: scale(1.03);
     }
 
     details {
@@ -70,12 +102,17 @@
       border-left: 5px solid var(--accent);
       padding: 1rem;
       border-radius: 5px;
+      transition: all 0.3s ease;
     }
 
     summary {
       font-weight: bold;
       cursor: pointer;
       outline: none;
+    }
+
+    summary:hover {
+      color: var(--accent);
     }
 
     footer {
@@ -103,18 +140,33 @@
   <main>
     <h2>Bienvenid@ a la Web de Gakudō AI & Data Learning</h2>
     <p>
-      ...
+      Exploro formas de combinar aprendizaje automático, diseño y datos para crear sistemas que ayuden a pensar y decidir mejor.
     </p>
 
     <p>
-      Conoce más sobre mi misión y visión ...
+      Conoce más sobre mi misión, visión y proyectos activos en torno a la construcción de inteligencia centrada en el ser humano.
     </p>
+
+    <details>
+      <summary>🧠 Qué es Gakudō</summary>
+      <p>Gakudō (学道) significa “el camino del aprendizaje”. Aquí exploro cómo la IA y los datos pueden guiarnos a decisiones más claras, eficaces y humanas.</p>
+    </details>
+
+    <details>
+      <summary>📁 Proyectos</summary>
+      <p>Desde herramientas de visualización hasta asistentes inteligentes y prototipos de modelos: cada proyecto apunta a mejorar cómo pensamos con tecnología.</p>
+    </details>
+
+    <details>
+      <summary>📬 Contacto</summary>
+      <p>Puedes escribirme a <a href="mailto:hello@gakudo.ai">hello@gakudo.ai</a> o seguir los avances desde GitHub.</p>
+    </details>
 
     <a class="button" href="#">Explorar Proyectos</a>
   </main>
 
   <footer>
-    &copy; 2025 Gakudo AI. All rights reserved.
+    &copy; 2025 Gakudo AI. Todos los derechos reservados.
   </footer>
 
 </body>
