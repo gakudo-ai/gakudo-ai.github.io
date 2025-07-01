@@ -195,8 +195,22 @@
 
     <details id="contacto">
       <summary>📬 Contacto</summary>
-      <p>Puedes escribirme a <a href="mailto:hello@gakudo.ai">hello@gakudo.ai</a> o seguir los avances desde GitHub.</p>
-    </details>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label for="name">Nombre:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="subject">Asunto:</label><br />
+        <input type="text" id="subject" name="subject" /><br /><br />
+
+        <label for="message">Mensaje:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Enviar</button>
+  </form>
+</details>
 
     <a class="button" href="#">Explorar Proyectos</a>
   </main>
