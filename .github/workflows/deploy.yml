@@ -2,53 +2,48 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main, master ]
+    branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout del código
         uses: actions/checkout@v4
-        
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      
+      - name: Instalar Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: 20
-          
-      - name: Install dependencies
-        run: npm install
-        
-      - name: Build project
-        run: npm run build
-        
-      - name: Prepare static site for GitHub Pages
-        run: |
-          mkdir -p static_site
-          # Buscar dónde ha dejado TanStack Start los archivos finales y copiarlos
-          if [ -d ".output/public" ]; then cp -r .output/public/* static_site/; fi
-          if [ -d "dist/client" ]; then cp -r dist/client/* static_site/; fi
-          if [ -d "dist" ] && [ ! -d "dist/client" ]; then cp -r dist/* static_site/; fi
-          # Crear archivo crítico para que GitHub no bloquee los assets de TanStack
-          touch static_site/.nojekyll
-          
-      - name: Upload artifact
+          bun-version: latest
+      
+      - name: Instalar dependencias
+        run: bun install
+      
+      - name: Construir la web
+        run: bun run build
+      
+      - name: Subir a GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./static_site
+          path: ./dist
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Desplegar en la web
         id: deployment
         uses: actions/deploy-pages@v4
