@@ -112,11 +112,11 @@ function Index() {
         <section id="inicio" className="hero-glow relative overflow-hidden pt-40 pb-28">
           <div className="mx-auto max-w-4xl px-6 text-center">
             <p className="animate-fade-up mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium tracking-wide text-muted-foreground uppercase">
-              PhD en Inteligencia Artificial
+              PhD. Formador y Divulgador Tech
             </p>
             <h1 className="animate-fade-up text-4xl leading-[1.1] font-semibold tracking-tight text-balance sm:text-5xl md:text-6xl">
-              Inteligencia Artificial y Datos:{" "}
-              <span className="text-primary">De la Complejidad a los Resultados Reales.</span>
+              Estrategia, Formación y Divulgación en IA y Datos:{" "}
+              <span className="text-primary">Rigor Técnico, Adopción, e Impacto de Negocio.</span>
             </h1>
             <p className="animate-fade-up mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
               Soy Iván Palomares, PhD en IA. Ayudo a empresas a dominar el Machine Learning y la IA
