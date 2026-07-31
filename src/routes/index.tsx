@@ -108,9 +108,19 @@ function Index() {
               </a>
             ))}
           </div>
-          <Button asChild variant="hero" size="sm">
-            <a href="#contacto">Contactar</a>
-          </Button>
+          
+          {/* Contenedor nuevo para agrupar idioma y botón de contacto */}
+          <div className="flex items-center gap-4">
+            <button 
+              onClick={toggleLanguage} 
+              className="text-sm font-semibold text-muted-foreground transition-colors hover:text-primary uppercase"
+            >
+              {t('switchLang')}
+            </button>
+            <Button asChild variant="hero" size="sm">
+              <a href="#contacto">Contactar</a>
+            </Button>
+          </div>
         </nav>
       </header>
 
