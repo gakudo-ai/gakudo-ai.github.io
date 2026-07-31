@@ -85,15 +85,12 @@ const navLinks = [
   { href: "#contacto", label: "Contacto" },
 ];
 
-function Index() {
-  const { t, i18n } = useTranslation();
-  const [idiomaActivo, setIdiomaActivo] = useState('es');
+function PageContent() {
+  const { t, i18n: i18nInstance } = useTranslation();
 
   const toggleLanguage = () => {
-    const nuevoIdioma = idiomaActivo === 'es' ? 'en' : 'es';
-    i18n.changeLanguage(nuevoIdioma).then(() => {
-      setIdiomaActivo(nuevoIdioma); 
-    });
+    const newLang = i18nInstance.language === 'es' ? 'en' : 'es';
+    i18nInstance.changeLanguage(newLang);
   };
   return (
     <div className="min-h-screen bg-background text-foreground">
