@@ -87,8 +87,8 @@ function Index() {
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'es' ? 'en' : 'es';
-    i18n.changeLanguage(newLang);
+    const newLang = i18n?.language === 'es' ? 'en' : 'es';
+    i18n?.changeLanguage(newLang);
   };
   return (
     <div className="min-h-screen bg-background text-foreground">
