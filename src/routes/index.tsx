@@ -112,13 +112,13 @@ function PageContent() {
           </div>
           
           {/* Contenedor nuevo para agrupar idioma y botón de contacto */}
-          <div className="flex items-center gap-4 relative z-50">
+          <div className="flex items-center gap-4">
             <button 
               onClick={toggleLanguage} 
               type="button"
               className="flex cursor-pointer items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
-              🌐 {idiomaActivo === 'es' ? 'EN' : 'ES'}
+              🌐 {i18nInstance.language === 'es' ? 'EN' : 'ES'}
             </button>
             <Button asChild variant="hero" size="sm">
               <a href="#contacto">Contactar</a>
