@@ -119,8 +119,8 @@ function Index() {
               <span className="text-primary">Rigor Técnico, Adopción, e Impacto de Negocio.</span>
             </h1>
             <p className="animate-fade-up mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Soy Iván Palomares, PhD en IA. Ayudo a empresas a dominar el Machine Learning y la IA
-              Generativa mediante formación corporativa de alto impacto y creación de contenido
+              Soy Iván Palomares, PhD en IA. Ayudo a empresas, profesionales, y organizaciones a dominar el Machine Learning, la IA,
+              y los Datos, mediante formación corporativa de alto impacto, la divulgación y creación de contenido
               técnico especializado (Tech Writing).
             </p>
             <div className="animate-fade-up mt-10 flex justify-center">
