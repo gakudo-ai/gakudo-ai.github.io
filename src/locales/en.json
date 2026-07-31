@@ -1,6 +1,4 @@
 {
-  "translation": {
-    "slogan": "AI and Data: Bridging the Gap Between Complex Code and Real-World Business Value.",
-    "switchLang": "Español"
-  }
+  "slogan_main": "AI and Data: ",
+  "slogan_highlight": "Bridging the Gap Between Complex Code and Real-World Business Value."
 }
