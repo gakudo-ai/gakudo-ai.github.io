@@ -307,3 +307,11 @@ function PageContent() {
     </div>
   );
 }
+
+export default function Index() {
+  return (
+    <I18nextProvider i18n={i18n}>
+      <PageContent />
+    </I18nextProvider>
+  );
+}
