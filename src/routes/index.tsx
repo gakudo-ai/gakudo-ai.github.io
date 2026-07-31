@@ -114,12 +114,13 @@ function Index() {
           </div>
           
           {/* Contenedor nuevo para agrupar idioma y botón de contacto */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 relative z-50">
             <button 
               onClick={toggleLanguage} 
-              className="flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              type="button"
+              className="flex cursor-pointer items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
-              🌐 {i18n?.language === 'es' ? 'EN' : 'ES'}
+              🌐 {idiomaActivo === 'es' ? 'EN' : 'ES'}
             </button>
             <Button asChild variant="hero" size="sm">
               <a href="#contacto">Contactar</a>
