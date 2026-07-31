@@ -7,17 +7,13 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      es: esTranslation,
-      en: enTranslation
+      es: { translation: esTranslation },
+      en: { translation: enTranslation }
     },
-    lng: 'es', // Idioma por defecto
-    fallbackLng: 'en',
-    interpolation: {
-      escapeValue: false
-    },
-    react: {
-      useSuspense: false
-    }
+    lng: 'es',
+    fallbackLng: 'es',
+    interpolation: { escapeValue: false },
+    react: { useSuspense: false }
   });
 
 export default i18n;
