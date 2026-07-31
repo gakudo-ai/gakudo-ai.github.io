@@ -281,15 +281,6 @@ function Index() {
             >
               <Linkedin className="size-5" />
             </a>
-            <a
-              href="https://github.com/ivanpc"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="inline-flex size-10 items-center justify-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary"
-            >
-              <Github className="size-5" />
-            </a>
           </div>
         </div>
       </footer>
