@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import { createFileRoute } from "@tanstack/react-router";
 import {
@@ -85,10 +86,13 @@ const navLinks = [
 
 function Index() {
   const { t, i18n } = useTranslation();
+  const [idiomaActivo, setIdiomaActivo] = useState('es');
 
   const toggleLanguage = () => {
-    const newLang = i18n?.language === 'es' ? 'en' : 'es';
-    i18n?.changeLanguage(newLang);
+    const nuevoIdioma = idiomaActivo === 'es' ? 'en' : 'es';
+    i18n.changeLanguage(nuevoIdioma).then(() => {
+      setIdiomaActivo(nuevoIdioma); 
+    });
   };
   return (
     <div className="min-h-screen bg-background text-foreground">
