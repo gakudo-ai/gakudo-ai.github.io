@@ -13,7 +13,8 @@ i18n
     lng: 'es', // Idioma por defecto
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false 
+      escapeValue: false,
+      react: { useSuspense: false }
     }
   });
 
