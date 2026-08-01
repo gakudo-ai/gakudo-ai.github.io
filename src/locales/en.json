@@ -4,5 +4,7 @@
 }
 {
   "nav_servicios": "Services",
-  "nav_experiencia": "Experience"
+  "nav_experiencia": "Experience",
+  "nav_sobre_mi": "About me",
+  "nav_contacto": "Contact"
 }
