@@ -79,10 +79,10 @@ const milestones = [
 ];
 
 const navLinks = [
-  { href: "#servicios", label: "Servicios" },
-  { href: "#experiencia", label: "Experiencia" },
-  { href: "#sobre-mi", label: "Sobre mí" },
-  { href: "#contacto", label: "Contacto" },
+  { href: "#servicios", label: "nav_servicios" },
+  { href: "#experiencia", label: "nav_experiencia" },
+  { href: "#sobre-mi", label: "nav_sobre_mi" },
+  { href: "#contacto", label: "nav_contacto" },
 ];
 
 function PageContent() {
