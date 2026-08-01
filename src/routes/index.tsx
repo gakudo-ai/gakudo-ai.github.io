@@ -106,7 +106,7 @@ function PageContent() {
                 href={l.href}
                 className="text-sm text-muted-foreground transition-colors hover:text-primary"
               >
-                {l.label}
+                {t(l.label)}
               </a>
             ))}
           </div>
