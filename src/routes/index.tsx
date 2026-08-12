@@ -136,7 +136,7 @@ function PageContent() {
             </p>
             <h1 className="animate-fade-up text-4xl leading-[1.1] font-semibold tracking-tight text-balance sm:text-5xl md:text-6xl">
               {t('heading_a')}:{" "}
-              <span className="text-primary">Rigor Técnico, Adopción, e Impacto de Negocio.</span>
+              <span className="text-primary">{t('heading_b')}.</span>
             </h1>
             <p className="animate-fade-up mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
               Soy Iván Palomares, PhD en IA. Ayudo a empresas, profesionales, y organizaciones a dominar el Machine Learning, la IA,
