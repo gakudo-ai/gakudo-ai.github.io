@@ -139,9 +139,7 @@ function PageContent() {
               <span className="text-primary">{t('heading_b')}.</span>
             </h1>
             <p className="animate-fade-up mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Soy Iván Palomares, PhD en IA. Ayudo a empresas, profesionales, y organizaciones a dominar el Machine Learning, la IA,
-              y los Datos, mediante formación corporativa de alto impacto, la divulgación y creación de contenido
-              técnico especializado (Tech Writing).
+              {t('self_intro')}
             </p>
             <div className="animate-fade-up mt-10 flex justify-center">
               <Button asChild variant="hero" size="xl">
