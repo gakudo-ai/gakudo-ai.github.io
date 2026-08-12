@@ -144,7 +144,7 @@ function PageContent() {
             <div className="animate-fade-up mt-10 flex justify-center">
               <Button asChild variant="hero" size="xl">
                 <a href="#contacto">
-                  Hablemos de tu proyecto <ArrowRight />
+                  {t('contact_button')} <ArrowRight />
                 </a>
               </Button>
             </div>
