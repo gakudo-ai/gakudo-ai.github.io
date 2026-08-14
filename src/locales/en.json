@@ -11,5 +11,14 @@
   "contact_button": "Let's talk about your project",
   "btn_contactar": "Contact me",
   "solutions_title": "Solutions I offer",
-  "solutions_intro": "With over 15 years of tech experience, I work at the intersection between in-depth technology and business value. These are my specialization areas:"
+  "solutions_intro": "With over 15 years of tech experience, I work at the intersection between in-depth technology and business value. These are my specialization areas:",
+
+  "milestone1_title": "Lead Tech Writer",
+  "milestone1_text": "Lead author of advanced content (AI & ML, LLMs, Data Analysis, etc.) for global audiences at Machine Learning Mastery, KDnuggets, Statology, and DataCamp.",
+  
+  "milestone2_title": "International Instructor and Professor",
+  "milestone2_text": "Design and delivery of B2B training for executives and technical teams in multinational companies and International Institutions like Business Schools.",
+  
+  "milestone3_title": "Corporate Leadership in AI",
+  "milestone3_text": "Experience leading Generative AI and MLOps Adoption strategies as Ex-Head of AI at Loyal Guru and Senior Manager at Capgemini."
 }
