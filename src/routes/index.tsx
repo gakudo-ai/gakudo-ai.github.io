@@ -121,7 +121,7 @@ function PageContent() {
               🌐 {i18nInstance.language === 'es' ? 'EN' : 'ES'}
             </button>
             <Button asChild variant="hero" size="sm">
-              <a href="#contacto">Contactar</a>
+              <a href="#contacto">{t('btn_contactar')}</a>
             </Button>
           </div>
         </nav>
