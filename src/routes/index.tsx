@@ -156,11 +156,10 @@ function PageContent() {
           <div className="mx-auto max-w-6xl px-6">
             <Reveal>
               <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                Soluciones que ofrezco
+                {t('solutions_title')}
               </h2>
               <p className="mt-5 max-w-3xl text-muted-foreground">
-                Con más de 15 años de experiencia tecnológica, trabajo en la intersección entre la
-                tecnología profunda y el valor empresarial. Estas son mis áreas de especialidad:
+                {t('solutions_intro')}
               </p>
             </Reveal>
 
