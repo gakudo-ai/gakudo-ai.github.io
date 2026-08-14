@@ -170,8 +170,8 @@ function PageContent() {
                     <div className="mb-6 inline-flex size-12 items-center justify-center rounded-xl bg-secondary text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                       <s.icon className="size-6" />
                     </div>
-                    <h3 className="text-lg font-semibold">{s.title}</h3>
-                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{s.text}</p>
+                    <h3 className="text-lg font-semibold">{t(s.title)}</h3>
+                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{t(s.text)}</p>
                   </article>
                 </Reveal>
               ))}
