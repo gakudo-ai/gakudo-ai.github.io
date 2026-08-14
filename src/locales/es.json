@@ -11,5 +11,14 @@
   "contact_button": "Hablemos de tu proyecto",
   "btn_contactar": "Contactar",
   "solutions_title": "Soluciones que ofrezco",
-  "solutions_intro": "Con más de 15 años de experiencia tecnológica, trabajo en la intersección entre la tecnología profunda y el valor empresarial. Estas son mis áreas de especialidad:"
+  "solutions_intro": "Con más de 15 años de experiencia tecnológica, trabajo en la intersección entre la tecnología profunda y el valor empresarial. Estas son mis áreas de especialidad:",
+  
+  "milestone1_title": "Lead Tech Writer",
+  "milestone1_text": "Autor principal de contenidos avanzados (NLP, LLMs) para audiencias globales en Machine Learning Mastery, KDnuggets y DataCamp.",
+  
+  "milestone2_title": "Instructor y Profesor Internacional",
+  "milestone2_text": "Diseño e impartición de formaciones B2B para ejecutivos y equipos técnicos en instituciones como EU Business School, EAE y empresas multinacionales.",
+  
+  "milestone3_title": "Liderazgo Corporativo en IA",
+  "milestone3_text": "Experiencia dirigiendo estrategias de IA Generativa y MLOps como Ex-Head of AI en Loyal Guru y Senior Manager en Capgemini."
 }
