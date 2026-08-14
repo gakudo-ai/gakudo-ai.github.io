@@ -13,12 +13,12 @@
   "solutions_title": "Solutions I offer",
   "solutions_intro": "With over 15 years of tech experience, I work at the intersection between in-depth technology and business value. These are my specialization areas:",
 
-  "milestone1_title": "Lead Tech Writer",
-  "milestone1_text": "Lead author of advanced content (AI & ML, LLMs, Data Analysis, etc.) for global audiences at Machine Learning Mastery, KDnuggets, Statology, and DataCamp.",
+  "service1_title": "Global Corporate Training",
+  "service1_text": "I design and deliver custom programs on AI & Data Analysis with Python, Machine Learning, LLMs, automation (n8n), and end-user AI tools, to train technical and business teams, in-person or online.",
   
-  "milestone2_title": "International Instructor and Professor",
-  "milestone2_text": "I design and deliver customized programs on AI and Data Analysis in Python, Machine Learning, LLMs and automation (n8n) to train technical and business teams, in person or online.",
+  "service2_title": "Tech Writing and Outreach",
+  "service2_text": "Expert writing of articles and technical documentation on AI. Author on world-renowned platforms such as Machine Learning Mastery and KDnuggets.",
   
-  "milestone3_title": "Corporate Leadership in AI",
-  "milestone3_text": "Experience leading Generative AI and MLOps Adoption strategies as Ex-Head of AI at Loyal Guru and Senior Manager at Capgemini."
+  "service3_title": "AI and Data Consulting",
+  "service3_text": "Strategic advice to understand, adopt, and integrate AI-based solutions and workflow automation that solve real business problems."
 }
