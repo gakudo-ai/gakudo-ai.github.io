@@ -13,12 +13,12 @@
   "solutions_title": "Soluciones que ofrezco",
   "solutions_intro": "Con más de 15 años de experiencia tecnológica, trabajo en la intersección entre la tecnología profunda y el valor empresarial. Estas son mis áreas de especialidad:",
   
-  "milestone1_title": "Lead Tech Writer",
-  "milestone1_text": "Autor principal de contenidos avanzados (NLP, LLMs) para audiencias globales en Machine Learning Mastery, KDnuggets y DataCamp.",
+  "service1_title": "Formación Corporativa Global",
+  "service1_text": "Diseño e imparto programas a medida sobre Python, Machine Learning, LLMs y automatización (n8n) para capacitar a equipos técnicos y de negocio, presencial u online.",
   
-  "milestone2_title": "Instructor y Profesor Internacional",
-  "milestone2_text": "Diseño e imparto programas a medida sobre IA y Análisis de Datos en Python, Machine Learning, LLMs y automatización (n8n) para capacitar a equipos técnicos y de negocio, presencial u online.",
+  "service2_title": "Tech Writing y Divulgación",
+  "service2_text": "Redacción experta de artículos y documentación técnica sobre IA. Autor en plataformas de referencia mundial como Machine Learning Mastery y KDnuggets.",
   
-  "milestone3_title": "Liderazgo Corporativo en IA",
-  "milestone3_text": "Experiencia dirigiendo estrategias de IA Generativa y MLOps como Ex-Head of AI en Loyal Guru y Senior Manager en Capgemini."
+  "service3_title": "Consultoría en IA y Datos",
+  "service3_text": "Asesoramiento estratégico para integrar soluciones basadas en IA y automatización de flujos que resuelvan problemas reales de negocio."
 }
