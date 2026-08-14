@@ -45,18 +45,18 @@ export const Route = createFileRoute("/")({
 const services = [
   {
     icon: GraduationCap,
-    title: "Formación Corporativa Global",
-    text: "Diseño e imparto programas a medida sobre Python, Machine Learning, LLMs y automatización (n8n) para capacitar a equipos técnicos y de negocio, presencial u online.",
+    title: "service1_title",
+    text: "service1_text",
   },
   {
     icon: PenLine,
-    title: "Tech Writing y Divulgación",
-    text: "Redacción experta de artículos y documentación técnica sobre IA. Autor en plataformas de referencia mundial como Machine Learning Mastery y KDnuggets.",
+    title: "service2_title",
+    text: "service2_text",
   },
   {
     icon: Brain,
-    title: "Consultoría en IA y Datos",
-    text: "Asesoramiento estratégico para integrar soluciones basadas en IA y automatización de flujos que resuelvan problemas reales de negocio.",
+    title: "service3_title",
+    text: "service3_text",
   },
 ];
 
