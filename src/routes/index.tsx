@@ -209,7 +209,10 @@ function PageContent() {
             <Reveal>
               <div className="rounded-3xl border border-border bg-card p-10 sm:p-14">
                 <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-                  {t('about_title')}
+                  <Trans 
+                    i18nKey="about_title" 
+                    components={{ 1: <span className="text-primary" /> }} 
+                  />
                 </h2>
                 <p className="mt-6 leading-relaxed text-muted-foreground">
                   {t('about_text')}
