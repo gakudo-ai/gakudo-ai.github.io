@@ -30,6 +30,9 @@
   "exp3_title": "Corporate AI Leadership",
   "exp3_text": "Experience leading Gen-AI and MLOps strategies, as well as designing AI adoption roadmaps in SaaS enterprises and international consultancy firms.",
 
+  "about_title": "La IA no es magia, es <span className="text-primary">ingeniería</span>.",
+  "about_text": "Soy Doctor (PhD) en Inteligencia Artificial. Durante la actual euforia generativa, aporto el rigor de mi perfil académico (ex-profesor universitario e investigador internacional) combinado con mi experiencia en consultoría corporativa. Trabajo con fluidez en español e inglés, convencido de que el éxito de cualquier modelo predictivo o sistema generativo reside en una base absoluta: la calidad de los datos.",
+  
   "contact_title": "Let's talk",
   "contact_desc": "Needing an expert voice for your tech publications, course design, or a trainer to upskill your team? Let's talk.",
   "contact_name": "Full name",
