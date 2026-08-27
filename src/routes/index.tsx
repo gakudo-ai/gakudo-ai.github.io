@@ -1,6 +1,6 @@
 import { useState } from "react";
 import i18n from '../i18n';
-import { useTranslation, I18nextProvider } from 'react-i18next';
+import { useTranslation, I18nextProvider, Trans } from 'react-i18next';
 import { createFileRoute } from "@tanstack/react-router";
 import {
   GraduationCap,
