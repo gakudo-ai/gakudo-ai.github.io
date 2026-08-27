@@ -254,27 +254,27 @@ function PageContent() {
                   <Input id="name" name="name" type="text" required placeholder={t('contact_name_v')} />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email">{t('contact_email')}</Label>
                   <Input
                     id="email"
                     name="email"
                     type="email"
                     required
-                    placeholder="tu@empresa.com"
+                    placeholder={t('contact_email_v')}
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="message">Tu consulta</Label>
+                  <Label htmlFor="message">{t('contact_query')}</Label>
                   <Textarea
                     id="message"
                     name="message"
                     required
                     rows={5}
-                    placeholder="Cuéntame brevemente tu proyecto o necesidad de formación."
+                    placeholder={t('contact_query_v')}
                   />
                 </div>
                 <Button type="submit" variant="hero" size="xl" className="w-full">
-                  <Mail /> Enviar mensaje
+                  <Mail /> {t('send_button')}
                 </Button>
               </form>
             </Reveal>
@@ -285,7 +285,7 @@ function PageContent() {
       <footer className="border-t border-border/60 py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Iván Palomares. Todos los derechos reservados.
+            © {new Date().getFullYear()} Iván Palomares. Todos los derechos reservados / All rights reserved.
           </p>
           <div className="flex items-center gap-3">
             <a
