@@ -63,18 +63,18 @@ const services = [
 const milestones = [
   {
     icon: BookOpen,
-    title: "Lead Tech Writer",
-    text: "Autor principal de contenidos avanzados (NLP, LLMs) para audiencias globales en Machine Learning Mastery, KDnuggets y DataCamp.",
+    title: "exp1_title",
+    text: "exp1_text",
   },
   {
     icon: Users,
-    title: "Instructor y Profesor Internacional",
-    text: "Diseño e impartición de formaciones B2B para ejecutivos y equipos técnicos en instituciones como EU Business School, EAE y empresas multinacionales.",
+    title: "exp2_title",
+    text: "exp2_text",
   },
   {
     icon: Building2,
-    title: "Liderazgo Corporativo en IA",
-    text: "Experiencia dirigiendo estrategias de IA Generativa y MLOps como Ex-Head of AI en Loyal Guru y Senior Manager en Capgemini.",
+    title: "exp3_title",
+    text: "exp3_text",
   },
 ];
 
@@ -194,8 +194,8 @@ function PageContent() {
                     <span className="absolute top-1 -left-[3.05rem] inline-flex size-9 items-center justify-center rounded-full border border-primary/50 bg-background text-primary">
                       <m.icon className="size-4" />
                     </span>
-                    <h3 className="text-lg font-semibold">{m.title}</h3>
-                    <p className="mt-2 leading-relaxed text-muted-foreground">{m.text}</p>
+                    <h3 className="text-lg font-semibold">{t(m.title)}</h3>
+                    <p className="mt-2 leading-relaxed text-muted-foreground">{t(m.text)}</p>
                   </li>
                 </Reveal>
               ))}
