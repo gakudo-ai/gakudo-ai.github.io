@@ -30,6 +30,9 @@
   "exp3_title": "Liderazgo Corporativo en IA",
   "exp3_text": "Experiencia dirigiendo estrategias de IA Generativa y MLOps, y hoja de ruta en adopción de IA en empresas SaaS y consultoras internacionales.",
 
+  "about_title": "La IA no es magia, es <span className='text-primary'>ingeniería</span>.",
+  "about_text": "Soy Doctor (PhD) en Inteligencia Artificial. Durante la actual euforia generativa, aporto el rigor de mi perfil académico (ex-profesor universitario e investigador internacional) combinado con mi experiencia en consultoría corporativa. Trabajo con fluidez en español e inglés, convencido de que el éxito de cualquier modelo predictivo o sistema generativo reside en una base absoluta: la calidad de los datos.",
+  
   "contact_title": "Hablemos",
   "contact_desc": "¿Necesitas una voz experta para tus publicaciones técnicas, diseño de cursos, o un formador que capacite a tu equipo? Hablemos.",
   "contact_name": "Nombre completo",
