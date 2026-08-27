@@ -184,7 +184,7 @@ function PageContent() {
           <div className="mx-auto max-w-4xl px-6">
             <Reveal>
               <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                Experiencia destacada
+                {t('experience_title')}
               </h2>
             </Reveal>
             <ol className="mt-14 space-y-10 border-l border-border pl-8">
