@@ -229,7 +229,7 @@ function PageContent() {
           <div className="mx-auto max-w-2xl px-6">
             <Reveal>
               <h2 className="text-center text-3xl font-semibold tracking-tight sm:text-4xl">
-                Hablemos
+                {t('contact_title')}
               </h2>
               <p className="mx-auto mt-5 max-w-xl text-center text-muted-foreground">
                 ¿Necesitas una voz experta para tus publicaciones técnicas o un formador que
