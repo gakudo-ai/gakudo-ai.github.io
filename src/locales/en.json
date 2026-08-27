@@ -22,5 +22,11 @@
   "service3_title": "AI and Data Consulting",
   "service3_text": "Strategic advice to understand, adopt, and integrate AI-based solutions and workflow automation that solve real business problems.",
 
-  "experience_title": "Experience Highlights"
+  "experience_title": "Experience Highlights",
+  "exp1_title": "Lead Tech Writer",
+  "exp1_text": "Lead author of advanced tech content (AI, Data Science, NLP, LLMs) for global audiences in Machine Learning Mastery, KDnuggets, and DataCamp.",
+  "exp2_title": "International Instructor and Professor",
+  "exp2_text": "Design and delivery of B2B training for executive, tech, and interdisciplinary teams. Curriculum design and directorship experience in academic programs for institutions like EU Business School, EAE, universities, and multinational companies.",
+  "exp3_title": "Corporate AI Leadership",
+  "exp3_text": "Experience leading Gen-AI and MLOps strategies, as well as designing AI adoption roadmaps in SaaS enterprises and international consultancy firms."
 }
