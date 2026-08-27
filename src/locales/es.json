@@ -22,5 +22,11 @@
   "service3_title": "Consultoría en IA y Datos",
   "service3_text": "Asesoramiento estratégico para comprender, adoptar, e integrar soluciones basadas en IA y automatización de flujos que resuelvan problemas reales de negocio.",
 
-  "experience_title": "Experiencia destacada"
+  "experience_title": "Experiencia destacada",
+  "exp1_title": "Líder Redactor de Contenido Tech",
+  "exp1_text": "Autor principal de contenidos avanzados (IA, Data Science, NLP, LLMs) para audiencias globales en Machine Learning Mastery, KDnuggets y DataCamp.",
+  "exp2_title": "Instructor y Profesor Internacional",
+  "exp2_text": "Diseño e impartición de formaciones B2B para ejecutivos y equipos técnicos. Diseño curricular y experiencia de dirección de programas académicos en instituciones como EU Business School, EAE, universidades y empresas multinacionales.",
+  "exp3_title": "Liderazgo Corporativo en IA",
+  "exp3_text": "Experiencia dirigiendo estrategias de IA Generativa y MLOps, y hoja de ruta en adopción de IA en empresas SaaS y consultoras internacionales."
 }
