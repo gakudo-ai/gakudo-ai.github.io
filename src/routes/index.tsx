@@ -232,8 +232,7 @@ function PageContent() {
                 {t('contact_title')}
               </h2>
               <p className="mx-auto mt-5 max-w-xl text-center text-muted-foreground">
-                ¿Necesitas una voz experta para tus publicaciones técnicas o un formador que
-                capacite a tu equipo? Hablemos.
+                {t('contact_desc')}
               </p>
             </Reveal>
 
@@ -251,8 +250,8 @@ function PageContent() {
                 <input type="hidden" name="_captcha" value="false" />
 
                 <div className="space-y-2">
-                  <Label htmlFor="name">Nombre completo</Label>
-                  <Input id="name" name="name" type="text" required placeholder="Tu nombre" />
+                  <Label htmlFor="name">{t('contact_name')}</Label>
+                  <Input id="name" name="name" type="text" required placeholder={t('contact_name_v')} />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
