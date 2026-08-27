@@ -28,5 +28,15 @@
   "exp2_title": "International Instructor and Professor",
   "exp2_text": "Design and delivery of B2B training for executive, tech, and interdisciplinary teams. Curriculum design and directorship experience in academic programs for institutions like EU Business School, EAE, universities, and multinational companies.",
   "exp3_title": "Corporate AI Leadership",
-  "exp3_text": "Experience leading Gen-AI and MLOps strategies, as well as designing AI adoption roadmaps in SaaS enterprises and international consultancy firms."
+  "exp3_text": "Experience leading Gen-AI and MLOps strategies, as well as designing AI adoption roadmaps in SaaS enterprises and international consultancy firms.",
+
+  "contact_title": "Let's Talk",
+  "contact_desc": "Needing an expert voice for your tech publications, course design, or a trainer to upskill your team? Let's talk.",
+  "contact_name": "Full name",
+  "contact_name_v": "Your name",
+  "contact_email": "Email",
+  "contact_email_v": "you@company.com",
+  "contact_query": "Your query",
+  "contact_query_v": "Let me know here about your project or training needs.",
+  "send_button": "Send message"
 }
