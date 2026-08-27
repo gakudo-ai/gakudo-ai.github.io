@@ -209,15 +209,10 @@ function PageContent() {
             <Reveal>
               <div className="rounded-3xl border border-border bg-card p-10 sm:p-14">
                 <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-                  La IA no es magia, es <span className="text-primary">ingeniería</span>.
+                  {t('about_title')}
                 </h2>
                 <p className="mt-6 leading-relaxed text-muted-foreground">
-                  Soy Doctor (PhD) en Inteligencia Artificial. Durante la actual euforia generativa,
-                  aporto el rigor de mi perfil académico (ex-profesor universitario e investigador
-                  internacional) combinado con mi experiencia en consultoría corporativa. Trabajo
-                  con fluidez en español e inglés, convencido de que el éxito de cualquier modelo
-                  predictivo o sistema generativo reside en una base absoluta: la calidad de los
-                  datos.
+                  {t('about_text')}
                 </p>
               </div>
             </Reveal>
