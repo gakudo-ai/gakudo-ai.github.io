@@ -28,5 +28,15 @@
   "exp2_title": "Instructor y Profesor Internacional",
   "exp2_text": "Diseño e impartición de formaciones B2B para ejecutivos y equipos técnicos. Diseño curricular y experiencia de dirección de programas académicos en instituciones como EU Business School, EAE, universidades y empresas multinacionales.",
   "exp3_title": "Liderazgo Corporativo en IA",
-  "exp3_text": "Experiencia dirigiendo estrategias de IA Generativa y MLOps, y hoja de ruta en adopción de IA en empresas SaaS y consultoras internacionales."
+  "exp3_text": "Experiencia dirigiendo estrategias de IA Generativa y MLOps, y hoja de ruta en adopción de IA en empresas SaaS y consultoras internacionales.",
+
+  "contact_title": "Hablemos",
+  "contact_desc": "¿Necesitas una voz experta para tus publicaciones técnicas, diseño de cursos, o un formador que capacite a tu equipo? Hablemos.",
+  "contact_name": "Nombre completo",
+  "contact_name_v": "Tu nombre",
+  "contact_email": "Email",
+  "contact_email_v": "tu@empresa.com",
+  "contact_query": "Tu consulta",
+  "contact_query_v": "Cuéntame brevemente tu proyecto o necesidad de formación",
+  "send_button": "Enviar mensaje"
 }
