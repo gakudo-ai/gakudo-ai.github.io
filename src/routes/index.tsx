@@ -205,11 +205,11 @@ function PageContent() {
         <section id="sobre-mi" className="border-t border-border/60 py-24">
           <div className="mx-auto max-w-5xl px-6">
             <Reveal>
-              <div className="grid gap-12 rounded-3xl border border-border bg-card p-8 sm:p-14 lg:grid-cols-2 lg:items-center">
+              {/* CAMBIO 1: De 'grid lg:grid-cols-2' a 'flex flex-col lg:flex-row' */}
+              <div className="flex flex-col lg:flex-row gap-12 rounded-3xl border border-border bg-card p-8 sm:p-14 lg:items-center">
                 
-                {/* Contenedor de la Foto */}
-                <div className="relative mx-auto w-[70%] max-w-[260px] aspect-square overflow-hidden rounded-2xl border border-border/50 shadow-2xl">
-                  {/* Capa de gradiente sutil para darle un toque premium */}
+                {/* CAMBIO 2: 'w-full max-w-[260px] shrink-0' para mantenerla pequeña pero fija */}
+                <div className="relative mx-auto w-full max-w-[260px] shrink-0 aspect-square overflow-hidden rounded-2xl border border-border/50 shadow-2xl">
                   <div className="absolute inset-0 z-10 bg-gradient-to-tr from-primary/10 to-transparent mix-blend-overlay"></div>
                   <img 
                     src="/foto-ivan.png" 
@@ -218,8 +218,8 @@ function PageContent() {
                   />
                 </div>
 
-                {/* Contenedor del Texto */}
-                <div className="text-center lg:text-left">
+                {/* CAMBIO 3: 'flex-1' obliga al texto a expandirse y comerse el espacio vacío */}
+                <div className="text-center lg:text-left flex-1">
                   <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
                     <Trans 
                       i18nKey="about_title" 
