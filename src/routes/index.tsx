@@ -205,18 +205,34 @@ function PageContent() {
 
         {/* SOBRE MÍ */}
         <section id="sobre-mi" className="border-t border-border/60 py-24">
-          <div className="mx-auto max-w-4xl px-6">
+          <div className="mx-auto max-w-5xl px-6">
             <Reveal>
-              <div className="rounded-3xl border border-border bg-card p-10 sm:p-14">
-                <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-                  <Trans 
-                    i18nKey="about_title" 
-                    components={{ 1: <span className="text-primary" /> }} 
+              <div className="grid gap-12 rounded-3xl border border-border bg-card p-8 sm:p-14 lg:grid-cols-2 lg:items-center">
+                
+                {/* Contenedor de la Foto */}
+                <div className="relative mx-auto w-full max-w-sm aspect-square overflow-hidden rounded-2xl border border-border/50 shadow-2xl">
+                  {/* Capa de gradiente sutil para darle un toque premium */}
+                  <div className="absolute inset-0 z-10 bg-gradient-to-tr from-primary/10 to-transparent mix-blend-overlay"></div>
+                  <img 
+                    src="/foto-ivan.jpg" 
+                    alt="Iván Palomares" 
+                    className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                   />
-                </h2>
-                <p className="mt-6 leading-relaxed text-muted-foreground">
-                  {t('about_text')}
-                </p>
+                </div>
+
+                {/* Contenedor del Texto */}
+                <div className="text-center lg:text-left">
+                  <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+                    <Trans 
+                      i18nKey="about_title" 
+                      components={{ 1: <span className="text-primary" /> }} 
+                    />
+                  </h2>
+                  <p className="mt-6 leading-relaxed text-muted-foreground">
+                    {t('about_text')}
+                  </p>
+                </div>
+
               </div>
             </Reveal>
           </div>
