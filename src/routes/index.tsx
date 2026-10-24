@@ -208,7 +208,7 @@ function PageContent() {
               <div className="grid gap-12 rounded-3xl border border-border bg-card p-8 sm:p-14 lg:grid-cols-2 lg:items-center">
                 
                 {/* Contenedor de la Foto */}
-                <div className="relative mx-auto w-full max-w-sm aspect-square overflow-hidden rounded-2xl border border-border/50 shadow-2xl">
+                <div className="relative mx-auto w-[70%] max-w-[260px] aspect-square overflow-hidden rounded-2xl border border-border/50 shadow-2xl">
                   {/* Capa de gradiente sutil para darle un toque premium */}
                   <div className="absolute inset-0 z-10 bg-gradient-to-tr from-primary/10 to-transparent mix-blend-overlay"></div>
                   <img 
