@@ -1,4 +1,3 @@
-import { useState } from "react";
 import i18n from '../i18n';
 import { useTranslation, I18nextProvider, Trans } from 'react-i18next';
 import { createFileRoute } from "@tanstack/react-router";
@@ -8,7 +7,6 @@ import {
   Brain,
   Mail,
   Linkedin,
-  Github,
   ArrowRight,
   BookOpen,
   Users,
@@ -225,7 +223,7 @@ function PageContent() {
                   <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
                     <Trans 
                       i18nKey="about_title" 
-                      components={{ 1: <span className="text-primary" /> }} 
+                      components={{ '1': <span className="text-primary" /> }} 
                     />
                   </h2>
                   <p className="mt-6 leading-relaxed text-muted-foreground">
