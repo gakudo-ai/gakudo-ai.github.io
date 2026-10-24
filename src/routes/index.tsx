@@ -205,10 +205,8 @@ function PageContent() {
         <section id="sobre-mi" className="border-t border-border/60 py-24">
           <div className="mx-auto max-w-5xl px-6">
             <Reveal>
-              {/* CAMBIO 1: De 'grid lg:grid-cols-2' a 'flex flex-col lg:flex-row' */}
               <div className="flex flex-col lg:flex-row gap-12 rounded-3xl border border-border bg-card p-8 sm:p-14 lg:items-center">
                 
-                {/* CAMBIO 2: 'w-full max-w-[260px] shrink-0' para mantenerla pequeña pero fija */}
                 <div className="relative mx-auto w-full max-w-[260px] shrink-0 aspect-square overflow-hidden rounded-2xl border border-border/50 shadow-2xl">
                   <div className="absolute inset-0 z-10 bg-gradient-to-tr from-primary/10 to-transparent mix-blend-overlay"></div>
                   <img 
@@ -218,12 +216,11 @@ function PageContent() {
                   />
                 </div>
 
-                {/* CAMBIO 3: 'flex-1' obliga al texto a expandirse y comerse el espacio vacío */}
-                <div className="text-center lg:text-left flex-1">
+                <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
                     <Trans 
                       i18nKey="about_title" 
-                      components={{ '1': <span className="text-primary" /> }} 
+                      components={{ 1: <span className="text-primary" /> }} 
                     />
                   </h2>
                   <p className="mt-6 leading-relaxed text-muted-foreground">
