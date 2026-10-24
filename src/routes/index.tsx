@@ -214,7 +214,7 @@ function PageContent() {
                   {/* Capa de gradiente sutil para darle un toque premium */}
                   <div className="absolute inset-0 z-10 bg-gradient-to-tr from-primary/10 to-transparent mix-blend-overlay"></div>
                   <img 
-                    src="/foto-ivan.jpg" 
+                    src="/foto-ivan.png" 
                     alt="Iván Palomares" 
                     className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                   />
